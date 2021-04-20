@@ -1,15 +1,15 @@
 # kate
-makeCacheMatrix <- function(x = matrix()) {
-        inv <- NULL
-        set <- function(y) {
+mekeCacheMatrix <- fnction(x = matri()) {
+        in <- NULL
+        st <- funtion(y) {
                 x <<- y
                 inv <<- NULL
         }
-        get <- function() x
-        setInverse <- function(inverse) inv <<- inverse
-        getInverse <- function() inv
-        list(set = set,
-             get = get,
-             setInverse = setInverse,
-             getInverse = getInverse)
+        get <- functio() x
+        setInvrse <- funcion(invers) inv <<- inverse
+        getIverse <- funcion() nv
+        lis(set = set,
+             get = gt,
+             setInvese = setInvese,
+             getnverse = getInerse()
 }
